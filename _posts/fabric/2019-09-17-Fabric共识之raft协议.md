@@ -14,7 +14,7 @@ tags:
 ## Fabric共识之Raft协议
 分布式一致性协议 Raft，自 2013 年论文发表之后就受到了技术领域的热捧，我认为相对于其他分布式一致性算法，Raft 有效的解决了分布式一致性算法过于复杂及难于实现的问题，这也是 Raft 能异军突起的主要因素。
 
-![img](./img/raft-img1.png)
+![img](https://github.com/cidodo/cidodo.github.io/blob/master/_posts/fabric/img/raft-img1.png)
 
 Raft 协议有效的借鉴了美国总统大选的策略，采用精英（Raft 称呼这个精英为 Leader）领导全局的方案，整个集群中只有 Leader 可以处理 client 发送过来的请求，其他非 Leader 节点即使接收到请求也必须将其转发到 Leader 节点进行处理。Raft 集群中的成员分三种角色：
 
