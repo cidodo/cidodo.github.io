@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Fabric中的身份信息
-subtitle:   Fabric身份信息介绍
-date:       2019-09-03
+title:      Fabric共识之Raft协议
+subtitle:   Fabric共识之Raft协议
+date:       2019-09-17
 author:     Arain
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
