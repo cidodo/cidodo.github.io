@@ -7,7 +7,6 @@ author:     Arain
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - Block Chain
     - Fabric
     - Raft
 ---
