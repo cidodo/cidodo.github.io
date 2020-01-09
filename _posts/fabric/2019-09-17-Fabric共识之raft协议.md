@@ -1,5 +1,5 @@
 ---
-layout:     page
+layout:     post
 title:      Fabric共识之Raft协议
 subtitle:   Fabric共识之Raft协议
 date:       2019-09-17
